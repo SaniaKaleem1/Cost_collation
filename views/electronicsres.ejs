@@ -1,0 +1,16 @@
+<%- include("electronics"); -%>
+<div class="d-flex justify-content-around">
+    <%  results.forEach(function(result){ %>
+    
+    <div class="card d-flex align-items-center flex-column justify-content-center" style="width: 18rem;">
+      <img src="<%=result.Image%>" class="card-img-top" style="height: 286px ; width:90%;" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"><%=result.Title%></h5>
+        <h6 class="card-title"><%=result.Price%></h6>
+        <h7 class="card-title"><%=result.Ratings%></h7>
+        <a href="/accessories" class="btn btn-primary"><%=result.Site%></a>
+      </div>
+    </div>
+
+    <% }) %>
+</div>

@@ -1,0 +1,26 @@
+{
+  "name": "majorproject-scrapping",
+  "version": "1.0.0",
+  "description": "scrapping price of products form different websites",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "sania kaleem",
+  "license": "ISC",
+  "dependencies": {
+    "Router": "^2.1.0",
+    "axios": "^0.27.2",
+    "body-parser": "^1.19.2",
+    "cheerio": "^1.0.0-rc.10",
+    "ejs": "^3.1.8",
+    "express": "^4.17.3",
+    "helmet": "^5.0.2",
+    "mongoose": "^6.2.6",
+    "nightmare": "^3.0.2",
+    "nodemon": "^2.0.16",
+    "path": "^0.12.7",
+    "request": "^2.88.2",
+    "serve-static": "^1.14.2"
+  }
+}
